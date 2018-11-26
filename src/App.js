@@ -54,7 +54,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch('http://localhost:3000')
+    fetch('https://nameless-mountain-69006.herokuapp.com')
       .then(response => response.json())
       .then(console.log)
   } 
